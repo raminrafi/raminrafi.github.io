@@ -25,6 +25,13 @@ body {
 	box-sizing: border-box;
 }
 
+.p-mid {
+	padding-top: 30vh;
+	padding-bottom: 30vh;
+}
+
+/* Padding y-axis */
+
 .py-0 {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
@@ -50,6 +57,8 @@ body {
 	padding-bottom: 60px !important;
 }
 
+/* Padding Top */
+
 .pt-0 {
 	padding-top: 0 !important;
 }
@@ -70,10 +79,7 @@ body {
 	padding-top: 60px !important;
 }
 
-.p-mid {
-	padding-top: 30vh;
-	padding-bottom: 30vh;
-}
+/* Padding Bottom */
 
 .pb-0 {
 	padding-bottom: 0 !important;
@@ -94,6 +100,34 @@ body {
 .pb-4 {
 	padding-bottom: 60px !important;
 }
+
+/* Padding x-axis */
+.px-0 {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.px-1 {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+
+.px-2 {
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+}
+
+.px-3 {
+	padding-left: 45px !important;
+	padding-right: 45px !important;
+}
+
+.px-4 {
+	padding-left: 60px !important;
+	padding-right: 60px !important;
+}
+
+/* Margin y-axis */
 
 .my-0 {
 	margin-top: 0 !important;
@@ -120,35 +154,7 @@ body {
 	margin-bottom: 60px !important;
 }
 
-.px-0 {
-	padding-left: 0 !important;
-	padding-right: 0 !important;
-}
-
-.px-rem-1 {
-	padding-left: 1rem !important;
-	padding-right: 1rem !important;
-}
-
-.px-1 {
-	padding-left: 15px !important;
-	padding-right: 15px !important;
-}
-
-.px-2 {
-	padding-left: 30px !important;
-	padding-right: 30px !important;
-}
-
-.px-3 {
-	padding-left: 45px !important;
-	padding-right: 45px !important;
-}
-
-.px-4 {
-	padding-left: 60px !important;
-	padding-right: 60px !important;
-}
+/* Margin x-axis */
 
 .mx-0 {
 	margin-left: 0 !important;
@@ -175,6 +181,8 @@ body {
 	margin-right: 60px !important;
 }
 
+/* Margin Top */
+
 .mt-0 {
 	margin-top: 0 !important;
 }
@@ -194,6 +202,8 @@ body {
 .mt-4 {
 	margin-top: 60px !important;
 }
+
+/* Margin Left */
 
 .ml-0 {
 	margin-left: 0 !important;
@@ -215,6 +225,8 @@ body {
 	margin-left: 60px !important;
 }
 
+/* Margin Right */
+
 .mr-0 {
 	margin-right: 0 !important;
 }
@@ -234,6 +246,8 @@ body {
 .mr-4 {
 	margin-right: 60px !important;
 }
+
+/* Margin Bottom */
 
 .mb-0 {
 	margin-bottom: 0 !important;
@@ -255,6 +269,8 @@ body {
 	margin-bottom: 60px !important;
 }
 
+/* Positions */
+
 .position-relative {
 	position: relative !important;
 }
@@ -267,6 +283,8 @@ body {
 	position: fixed !important;
 }
 
+/* Alignments */
+
 .align-items-center {
 	align-items: center !important;
 }
@@ -274,6 +292,8 @@ body {
 .justify-content-center {
 	justify-content: center !important;
 }
+
+/* Text Colors */
 
 .text-black {
 	color: var(--black) !important;
@@ -299,13 +319,31 @@ body {
 	color: var(--blue) !important;
 }
 
-.text-exbold {
-	font-weight: 900;
+/* Display position */
+
+.d-inlineblock {
+	display: inline-block !important;
 }
 
-.text-bold {
-	font-weight: 600;
+.d-block {
+	display: block !important;
 }
+
+.d-none {
+	display: none !important;
+}
+
+/* Vertical Alignments */
+
+.v-top {
+	vertical-align: top;
+}
+
+.v-middle {
+	vertical-align: middle;
+}
+
+/* Background Colors */
 
 .bg-light {
 	background-color: var(--light) !important;
@@ -324,26 +362,17 @@ body {
 	background-attachment: fixed;
 }
 
-.d-inlineblock {
-	display: inline-block !important;
+/* Font Weights */
+
+.text-exbold {
+	font-weight: 900;
 }
 
-.d-block {
-	display: block !important;
+.text-bold {
+	font-weight: 600;
 }
 
-.d-none {
-	display: none !important;
-}
-
-.v-top {
-	vertical-align: top;
-}
-
-.v-middle {
-	vertical-align: middle;
-}
-
+/* Font Style */
 .italic {
 	font-style: italic;
 }
@@ -351,6 +380,8 @@ body {
 .font-normal {
 	font-size: 20px;
 }
+
+/* Border Radius */
 
 .bradius-none {
 	border-radius: 0;
@@ -360,10 +391,7 @@ body {
 	border-radius: 7px;
 }
 
-.font-playfair {
-	font-family: "Playfair Display", serif;
-	letter-spacing: 2px;
-}
+/* Splash Page */
 
 .border-bottom {
 	border-bottom: 2px solid var(--blue);
@@ -373,6 +401,15 @@ body {
 	font-size: 64px;
 }
 
+/* Image */
+
+.img-vh {
+	height: 100vh;
+	width: 100%;
+}
+
+/* Overlay */
+
 .overlay {
 	background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
 	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
@@ -380,9 +417,4 @@ body {
 	left: 0;
 	right: 0;
 	height: 100%;
-}
-
-.img-vh {
-	height: 100vh;
-	width: 100%;
 }
