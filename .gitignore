@@ -52,8 +52,8 @@ desktop.ini
 
 # Dependency directories #
 ##########################
-#node_modules/
-#node_modules/*
+node_modules/
+node_modules/*
 jspm_packages/
 
 # Other generated files #
