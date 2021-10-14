@@ -5,9 +5,9 @@
 	--black: #000;
 	--light: #f3f3f3;
 	--white: #fff;
-	--gray: gray;
+	--gray: rgb(128, 128, 128);
 	--milk: #f8f9fa;
-	--lightgray: rgba(179, 179, 179, 0.959);
+	--lightgray: rgb(179, 179, 179);
 	--turquoise: #46ddb0;
 	--blue: #00a3e1;
 }
