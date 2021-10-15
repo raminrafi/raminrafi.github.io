@@ -399,7 +399,7 @@ body {
 }
 
 .head {
-	font-size: 64px;
+	font-size: 54px;
 }
 
 /* Image */
@@ -419,3 +419,9 @@ body {
 	right: 0;
 	height: 100%;
 }
+/* 
+@media (max-width: 767px) {
+	.head {
+		font-size: 48px;
+	}
+} */
