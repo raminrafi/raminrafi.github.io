@@ -428,7 +428,7 @@ body {
 
 /* Overlay */
 
-.welcome {
+.overlay {
 	background-image: url(../images/bg-img.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -438,9 +438,9 @@ body {
 	position: relative;
 }
 
-.welcome:before {
+.overlay:before {
 	content: "";
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.7);
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -449,8 +449,7 @@ body {
 	z-index: 0;
 }
 
-.welcome .text-block {
-	color: #b1b1b1;
+.overlay .text-block {
 	height: 420px;
 	position: absolute;
 	top: 50%;
@@ -459,17 +458,6 @@ body {
 	margin: -250px auto 0;
 	max-width: 600px;
 	text-align: center;
-}
-
-.overlay {
-	background-color: rgba(0, 0, 0, 0.7); /* Black background with opacity */
-	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	height: 100vh;
-	position: fixed;
 }
 
 .item {
@@ -500,10 +488,21 @@ body {
 		float: none !important;
 		text-align: center;
 	}
+	.navbar + .navbar {
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+	}
 }
 
 @media (max-width: 540px) {
 	.head {
 		font-size: 48px;
+	}
+	.font-normal {
+		font-size: 16px;
+	}
+	.px-2 {
+		padding-left: 10px !important;
+		padding-right: 10px !important;
 	}
 }
