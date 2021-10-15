@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+		<link rel="stylesheet" href="lib/fontawesome-free/css/all.min.css" />
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="lib/@ommu/animated-headline/css/reset.css" />
 		<link rel="stylesheet" href="lib/@ommu/animated-headline/css/style.css" />
@@ -14,29 +15,152 @@
 	</head>
 
 	<body>
-		<div class="align-items-center text-center">
-			<!-- Background image -->
-			<img class="img-vh" src="images/home-bg.jpg" alt="Background image here" />
-			<!-- Overlay -->
-			<div class="text-center position-fixed overlay">
-				<!-- Overlay Text -->
-				<div class="text-light p-mid">
-					<h1 class="text-uppercase head mt-4">
-						Ramin
-						<strong class="text-exbold text-blue"> Rafi </strong>
-					</h1>
-					<section class="mt-2">
-						<h1 class="cd-headline clip font-normal is-full-width">
-							<span>I am a</span>
-							<span class="cd-words-wrapper">
-								<b class="text-bold is-visible border-bottom">Free Lancer</b>
-								<b class="text-bold border-bottom">UI/UX Designer</b>
-								<b class="text-bold border-bottom">Graphic Designer</b>
-								<b class="text-bold border-bottom">Web Developer</b>
-							</span>
-						</h1>
-					</section>
+		<header>
+			<!--Navigation Bar (Min header)  -->
+			<nav class="bg-dark navbar navbar-expand-lg py-1 px-4 mb-0">
+				<div class="navbar-collapse clearfix" id="navbarSupportedContent">
+					<!-- Social Media Links -->
+					<ul class="navbar-nav list-unstyled list-inline">
+						<li class="nav-item px-1 active">
+							<a class="nav-link" href="#"><i class="fa-1x text-light fab fa-facebook"></i></a>
+						</li>
+						<li class="nav-item px-1">
+							<a class="nav-link" href="#"><i class="fa-1x text-light fab fa-twitter"></i></a>
+						</li>
+						<li class="nav-item px-1">
+							<a class="nav-link" href="#"><i class="fa-1x text-light fab fa-instagram"></i></a>
+						</li>
+						<li class="nav-item px-1">
+							<a class="nav-link" href="#"><i class="fa-1x text-light fab fa-linkedin"></i></a>
+						</li>
+					</ul>
+					<!-- Contact Information -->
+					<div class="pull-right mr-4">
+						<span class="mr-3">
+							<a href="#" class="text-light py-1">
+								<i class="fa fa-phone fa-flip-horizontal text-orange" aria-hidden="true"></i>
+								<span>(+92) 334 465 20xx</span>
+							</a>
+						</span>
+						<span>
+							<a href="#" class="text-light py-1">
+								<i class="fa fa-envelope text-orange" aria-hidden="true"></i>
+								<span>raminrafi22@gmail.com</span>
+							</a>
+						</span>
+					</div>
 				</div>
+			</nav>
+		</header>
+
+		<!-- Header -->
+		<nav class="navbar bradius-none sticky-top bg-dark navbar-light clearfix mb-0 px-4">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header px-2 py-2">
+				<h1 class="text-exbold font-normal text-orange">RR<span class="text-light">.</span></h1>
+			</div>
+			<!-- Navigation tabs -->
+			<div class="pull-right">
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active px-rem-1 py-1 ml-3"><a class="text-orange" href="#">Home</a></li>
+						<li class="px-rem-1 py-1"><a class="text-light" href="#">About Me</a></li>
+						<li class="px-rem-1 py-1"><a class="text-light" href="#">Education</a></li>
+						<li class="px-rem-1 py-1"><a class="text-light" href="#">Skills</a></li>
+						<li class="px-rem-1 py-1"><a class="text-light" href="#">Work History</a></li>
+						<li class="px-rem-1 py-1"><a class="text-light" href="#">Projects</a></li>
+						<li class="px-rem-1 py-1"><a class="text-light" href="#">Contact Me</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="align-items-center text-center">
+			<div class="carousel-inner">
+				<div class="item active">
+					<!-- Background image -->
+					<img class="img-vh" src="images/bg-img.jpg" alt="Background image here" />
+					<!-- Overlay -->
+					<div class="text-center position-fixed overlay">
+						<!-- Overlay Text -->
+						<div class="text-light mt-2 p-mid">
+							<h1 class="text-bold font-normal text-uppercase">Hello World. I am</h1>
+							<h1 class="text-capitalize text-exbold head mt-2 text-orange">Ramin Rafi</h1>
+							<section class="mt-2">
+								<h1 class="cd-headline clip font-normal is-full-width">
+									<span>A </span>
+									<span class="cd-words-wrapper">
+										<b class="text-bold is-visible border-bottom">Free Lancer</b>
+										<b class="text-bold border-bottom">UI/UX Designer</b>
+										<b class="text-bold border-bottom">Graphic Designer</b>
+										<b class="text-bold border-bottom">Web Developer</b>
+									</span>
+								</h1>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container py-4 mb-1">
+			<div class="row">
+				<div class="align-items-center justify-content-center">
+					<div class="carousel slide align-items-center text-center">
+						<!-- Content -->
+						<div class="carousel-inner align-items-center justify-content-center" role="listbox">
+							<!-- Slide 1 -->
+							<div class="align-items-center justify-content-center mt-4">
+								<h1 class="text-uppercase text-exbold font-normal mt-2 my-2 text-orange">About Me</h1>
+								<img class="img-circle py-1 px-1 d-inlineblock" src="images/pp.jpg" alt="Profile Picture" />
+								<div class="col-md-10 col-md-offset-1 py-2">
+									<blockquote class="mb-1 text-gray italic font-normal mt-1 px-4 mx-4 text-center">
+										<h3>
+											“Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo
+											animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.”
+										</h3>
+									</blockquote>
+									<strong class="text-capitalize text-bold font-normal d-block py-1">- Ramin Rafi</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<h1 class="text-uppercase text-center text-exbold font-normal mt-2 my-2 text-orange">Academic details</h1>
+				<ul class="py-1">
+					<li class="mb-1 mt-2">
+						<span class="font-normal text-bold text-uppercase d-block py-1"> bachelors in Computer Science (BSCS) </span>
+						<span class="text-capitalize d-block">National University of Computer and Energing Sciences - FAST NUCES - Lahore</span>
+						<span class="py-1 d-inlineblock text-orange">2017-2021</span>
+					</li>
+					<li class="mb-1 mt-1">
+						<span class="font-normal text-bold text-uppercase d-block py-1"> Intermediate (FSc) </span>
+						<span class="text-capitalize d-block">Punjab Group of Colleges - Lahore</span>
+						<span class="py-1 d-inlineblock text-orange">2015-2017</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<h1 class="text-uppercase text-center text-exbold font-normal mt-2 my-2 text-orange">Professional Experience</h1>
+				<ul class="py-1">
+					<li class="mb-1 mt-2">
+						<span class="font-normal text-bold text-uppercase d-block py-1"> Software Quality Assurance (SQA) Intern - CureX </span>
+						<span class="text-capitalize d-block">CureMD Research and Development - Pakistan</span>
+						<span class="py-1 d-inlineblock text-orange">August 2020 - September 2020 </span>
+					</li>
+					<li class="mb-1 mt-1">
+						<span class="font-normal text-bold text-uppercase d-block py-1"> Associate Consultant - Salesforce & Magento</span>
+						<span class="text-capitalize d-block">Systems Limited - Pakistan</span>
+						<span class="py-1 d-inlineblock text-orange">2021-Present</span>
+					</li>
+				</ul>
 			</div>
 		</div>
 
