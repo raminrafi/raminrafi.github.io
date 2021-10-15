@@ -492,6 +492,10 @@ body {
 		padding-top: 10px !important;
 		padding-bottom: 10px !important;
 	}
+	li + li {
+		margin-top: 10px !important;
+		margin-bottom: 10px !important;
+	}
 }
 
 @media (max-width: 540px) {
@@ -501,8 +505,18 @@ body {
 	.font-normal {
 		font-size: 16px;
 	}
-	.px-2 {
-		padding-left: 10px !important;
-		padding-right: 10px !important;
+	.px-2,
+	.px-4,
+	.px-3,
+	.px-1 {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.mx-1,
+	.mx-2,
+	.mx-3,
+	.mx-4 {
+		margin-left: 15px !important;
+		margin-right: 15px !important;
 	}
 }
