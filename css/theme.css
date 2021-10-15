@@ -27,8 +27,8 @@ body {
 }
 
 .p-mid {
-	padding-top: 30vh;
-	padding-bottom: 30vh;
+	padding-top: 35vh;
+	padding-bottom: 35vh;
 }
 
 /* Padding y-axis */
@@ -399,7 +399,7 @@ body {
 }
 
 .head {
-	font-size: 54px;
+	font-size: 64px;
 }
 
 /* Image */
@@ -407,6 +407,7 @@ body {
 .img-vh {
 	height: 99.7vh;
 	width: 100%;
+	object-fit: cover;
 }
 
 /* Overlay */
@@ -419,9 +420,9 @@ body {
 	right: 0;
 	height: 100%;
 }
-/* 
-@media (max-width: 767px) {
+
+@media (max-width: 540px) {
 	.head {
 		font-size: 48px;
 	}
-} */
+}
