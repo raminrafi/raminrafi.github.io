@@ -13,6 +13,18 @@
 	--blue: #00a3e1;
 	/* --dark: #0a0a38; */
 	--dark: #030316;
+	--git: #f1502f;
+	--js: rgb(255, 214, 0);
+	--html: #ff5722;
+	--npm: #d50000;
+	--python: #3f48cc;
+	--sql: #b8d431;
+	--vuejs: #7fca98;
+	--java: #407597;
+	--node: #3c873a;
+	--css: #264de4;
+	--c: #0080cd;
+	--adobe: #712983;
 }
 
 body {
@@ -321,6 +333,54 @@ body {
 
 .text-blue {
 	color: var(--blue) !important;
+}
+
+.text-css {
+	color: var(--css) !important;
+}
+
+.text-npm {
+	color: var(--npm) !important;
+}
+
+.text-node {
+	color: var(--node) !important;
+}
+
+.text-html {
+	color: var(--html) !important;
+}
+
+.text-python {
+	color: var(--python) !important;
+}
+
+.text-sql {
+	color: var(--sql) !important;
+}
+
+.text-vuejs {
+	color: var(--vuejs) !important;
+}
+
+.text-js {
+	color: var(--js) !important;
+}
+
+.text-java {
+	color: var(--java) !important;
+}
+
+.text-git {
+	color: var(--git) !important;
+}
+
+.text-c {
+	color: var(--c) !important;
+}
+
+.text-adobe {
+	color: var(--adobe) !important;
 }
 
 .text-uppercase {
