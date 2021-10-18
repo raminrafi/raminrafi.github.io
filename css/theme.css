@@ -536,6 +536,17 @@ body {
 	z-index: 999;
 }
 
+.ln:hover,
+.fb:hover,
+.tw:hover,
+.git:hover {
+	color: var(--lightgray) !important;
+}
+
+li a:active {
+	color: var(--orange) !important;
+}
+
 @media (max-width: 960px) {
 	.navbar-header {
 		float: none !important;
