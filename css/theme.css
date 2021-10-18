@@ -547,10 +547,6 @@ li a:active {
 	color: var(--orange) !important;
 }
 
-.fab:hover {
-	font-size: 100px;
-}
-
 @media (max-width: 960px) {
 	.navbar-header {
 		float: none !important;
