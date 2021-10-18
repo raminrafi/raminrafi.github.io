@@ -547,6 +547,14 @@ li a:active {
 	color: var(--orange) !important;
 }
 
+.zoom:hover,
+.zoom:focus {
+	z-index: 2;
+	transition: 0.4s all ease;
+	transform: scale(1.25);
+	content: "";
+}
+
 @media (max-width: 960px) {
 	.navbar-header {
 		float: none !important;
