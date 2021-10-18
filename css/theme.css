@@ -547,6 +547,10 @@ li a:active {
 	color: var(--orange) !important;
 }
 
+.fab:hover {
+	font-size: 100px;
+}
+
 @media (max-width: 960px) {
 	.navbar-header {
 		float: none !important;
@@ -589,5 +593,8 @@ li a:active {
 	.mx-4 {
 		margin-left: 15px !important;
 		margin-right: 15px !important;
+	}
+	.text-left {
+		text-align: center;
 	}
 }
