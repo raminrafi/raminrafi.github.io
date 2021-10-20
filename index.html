@@ -1,388 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="lib/fontawesome-free/css/all.min.css" />
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="lib/@ommu/animated-headline/css/reset.css" />
+		<link rel="stylesheet" href="lib/@ommu/animated-headline/css/style.css" />
 
-    <link rel="stylesheet" href="lib/fontawesome-free/css/all.min.css" />
-    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="lib/@ommu/animated-headline/css/reset.css" />
-    <link rel="stylesheet" href="lib/@ommu/animated-headline/css/style.css" />
+		<link rel="stylesheet" href="css/theme2.css" />
+		<title>Portfolio - Ramin Rafi</title>
+	</head>
 
-    <link rel="stylesheet" href="css/theme2.css" />
-    <title>Portfolio - Ramin Rafi</title>
-</head>
+	<body>
+		<header>
+			<!--Navigation Bar (Min header)  -->
+			<nav class="bg-gray navbar bradius-none navbar-expand-lg py-1 px-4 mb-0">
+				<div class="navbar-collapse text-center clearfix" id="navbarSupportedContent">
+					<!-- Social Media Links -->
+					<ul class="navbar-nav list-unstyled list-inline mt-1">
+						<li class="nav-item px-1 active">
+							<a class="nav-link" href="https://m.facebook.com/ramin.rafi.5?ref=bookmarks">
+								<i class="fa-1x text-light fab fa-facebook fb"></i>
+							</a>
+						</li>
 
-<body>
-    <header>
-        <!--Navigation Bar (Min header)  -->
-        <nav class="bg-gray navbar bradius-none navbar-expand-lg py-1 px-4 mb-0">
-            <div class="navbar-collapse text-center clearfix" id="navbarSupportedContent">
-                <!-- Social Media Links -->
-                <ul class="navbar-nav list-unstyled list-inline mt-1">
-                    <li class="nav-item px-1 active">
-                        <a class="nav-link" href="https://m.facebook.com/ramin.rafi.5?ref=bookmarks">
-                            <i class="fa-1x text-light fab fa-facebook fb"></i>
-                        </a>
-                    </li>
+						<li class="nav-item px-1">
+							<a class="nav-link" href="#">
+								<i class="fa-1x text-light fab fa-twitter tw"></i>
+							</a>
+						</li>
 
-                    <li class="nav-item px-1">
-                        <a class="nav-link" href="#">
-                            <i class="fa-1x text-light fab fa-twitter tw"></i>
-                        </a>
-                    </li>
+						<li class="nav-item px-1">
+							<a class="nav-link" href="https://github.com/raminrafi/">
+								<i class="fa-1x text-light fab fa-github git"></i>
+							</a>
+						</li>
 
-                    <li class="nav-item px-1">
-                        <a class="nav-link" href="https://github.com/raminrafi/">
-                            <i class="fa-1x text-light fab fa-github git"></i>
-                        </a>
-                    </li>
+						<li class="nav-item px-1">
+							<a class="nav-link" href="https://www.linkedin.com/in/ramin-rafi-038b5a18b">
+								<i class="fa-1x ln text-light fab fa-linkedin"></i>
+							</a>
+						</li>
+					</ul>
 
-                    <li class="nav-item px-1">
-                        <a class="nav-link" href="https://www.linkedin.com/in/ramin-rafi-038b5a18b">
-                            <i class="fa-1x ln text-light fab fa-linkedin"></i>
-                        </a>
-                    </li>
-                </ul>
+					<!-- Contact Information -->
+					<ul class="pull-right navbar-nav list-unstyled list-inline mt-1">
+						<li>
+							<span>
+								<a href="#" class="text-light links py-1">
+									<i class="fa fa-phone fa-flip-horizontal text-pink"></i>
+									<span>(+92) 334 465 20xx</span>
+								</a>
+							</span>
+						</li>
+						<li>
+							<span>
+								<a href="#" class="text-light links px-1 py-1">
+									<i class="fa fa-envelope text-pink"></i>
+									<span>raminrafi22@gmail.com</span>
+								</a>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
 
-                <!-- Contact Information -->
-                <ul class="pull-right navbar-nav list-unstyled list-inline mt-1">
-                    <li>
-                        <span>
-                            <a href="#" class="text-light links py-1">
-                                <i class="fa fa-phone fa-flip-horizontal text-pink"></i>
-                                <span>(+92) 334 465 20xx</span>
-                            </a>
-                        </span>
-                    </li>
-                    <li>
-                        <span>
-                            <a href="#" class="text-light links px-1 py-1">
-                                <i class="fa fa-envelope text-pink"></i>
-                                <span>raminrafi22@gmail.com</span>
-                            </a>
-                        </span>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+		<!-- Header -->
+		<nav class="navbar bradius-none sticky-top bg-gray navbar-light clearfix mb-0 px-4">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header px-2 py-2">
+				<h1 class="text-bold text-uppercase font-normal text-pink">Ramin Rafi</h1>
+			</div>
+			<!-- Navigation tabs -->
+			<div class="pull-right">
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="ml-1 py-1"><a class="text-light text-capitalize" href="#cover">Home</a></li>
+						<li class="ml-1 py-1"><a class="text-light text-capitalize" href="#about">About Me</a></li>
+						<li class="ml-1 py-1"><a class="text-light text-capitalize" href="#education">Education</a></li>
+						<li class="ml-1 py-1"><a class="text-light text-capitalize" href="#history">Work History</a></li>
+						<li class="ml-1 py-1"><a class="text-light text-capitalize" href="#skills">Skills</a></li>
+						<li class="ml-1 py-1"><a class="text-light text-capitalize" href="#project">Projects</a></li>
+						<li class="ml-1 py-1"><a class="text-light text-capitalize" href="#contact">Contact Me</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-    <!-- Header -->
-    <nav class="navbar bradius-none sticky-top bg-gray navbar-light clearfix mb-0 px-4">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header px-2 py-2">
-            <h1 class="text-bold text-uppercase font-normal text-pink">Ramin Rafi</h1>
-        </div>
-        <!-- Navigation tabs -->
-        <div class="pull-right">
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="ml-1 py-1"><a class="text-light text-capitalize" href="#cover">Home</a></li>
-                    <li class="ml-1 py-1"><a class="text-light text-capitalize" href="#about">About Me</a></li>
-                    <li class="ml-1 py-1"><a class="text-light text-capitalize" href="#education">Education</a></li>
-                    <li class="ml-1 py-1"><a class="text-light text-capitalize" href="#history">Work History</a></li>
-                    <li class="ml-1 py-1"><a class="text-light text-capitalize" href="#skills">Skills</a></li>
-                    <li class="ml-1 py-1"><a class="text-light text-capitalize" href="#project">Projects</a></li>
-                    <li class="ml-1 py-1"><a class="text-light text-capitalize" href="#contact">Contact Me</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+		<!-- Text Over Image -->
+		<div id="cover" class="overlay align-items-center text-center">
+			<div class="container">
+				<div class="text-block py-4">
+					<div class="text-black mt-1">
+						<h1 class="text-bold font-normal text-uppercase">Hello World. I am</h1>
+						<h1 class="text-capitalize text-exbold head text-pink mt-2">Ramin Rafi</h1>
+						<section>
+							<h1 class="cd-headline clip font-normal is-full-width mt-2">
+								<span>Working as a </span>
+								<span class="cd-words-wrapper">
+									<b class="text-bold is-visible border-bottom">Free Lancer</b>
+									<b class="text-bold border-bottom">UI/UX Designer</b>
+									<b class="text-bold border-bottom">Graphic Designer</b>
+									<b class="text-bold border-bottom">Web Developer</b>
+								</span>
+							</h1>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <!-- Text Over Image -->
-    <div id="cover" class="overlay align-items-center text-center">
-        <div class="container">
-            <div class="text-block py-4">
-                <div class="text-black mt-1">
-                    <h1 class="text-bold font-normal text-uppercase">Hello World. I am</h1>
-                    <h1 class="text-capitalize text-exbold head text-pink mt-2">Ramin Rafi</h1>
-                    <section>
-                        <h1 class="cd-headline clip font-normal is-full-width mt-2">
-                            <span>Working as a </span>
-                            <span class="cd-words-wrapper">
-                                <b class="text-bold is-visible border-bottom">Free Lancer</b>
-                                <b class="text-bold border-bottom">UI/UX Designer</b>
-                                <b class="text-bold border-bottom">Graphic Designer</b>
-                                <b class="text-bold border-bottom">Web Developer</b>
-                            </span>
-                        </h1>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </div>
+		<!-- About Me Section -->
+		<div id="about" class="container py-3">
+			<div class="row bg-light py-2 mb-1">
+				<div class="align-items-center justify-content-center">
+					<div class="carousel slide align-items-center text-center">
+						<!-- Content -->
+						<div class="carousel-inner align-items-center justify-content-center" role="listbox">
+							<!-- Slide 1 -->
+							<div class="align-items-center justify-content-center mt-4">
+								<h1 class="text-uppercase text-exbold font-normal mt-2 my-2 text-pink">About Me</h1>
+								<img style="filter: grayscale(100%)" class="img-circle py-1 px-1 d-inlineblock" src="images/pp.jpg" alt="Profile Picture" />
+								<div class="col-md-10 col-md-offset-1 py-2">
+									<blockquote class="mb-1 font-normal mt-1 px-4 mx-4 text-black text-center">
+										<h3>
+											Motivated and hardworking computer scientist looking forward to use my skills and experience to incorporate, develop and design software
+											solutions of everyday problems.
+										</h3>
+									</blockquote>
+								</div>
+							</div>
 
-    <!-- About Me Section -->
-    <div id="about" class="container py-3">
-        <div class="row bg-light py-2 mb-1">
-            <div class="align-items-center justify-content-center">
-                <div class="carousel slide align-items-center text-center">
-                    <!-- Content -->
-                    <div class="carousel-inner align-items-center justify-content-center" role="listbox">
-                        <!-- Slide 1 -->
-                        <div class="align-items-center justify-content-center mt-4">
-                            <h1 class="text-uppercase text-exbold font-normal mt-2 my-2 text-pink">About Me</h1>
-                            <img style="filter: grayscale(100%)" class="img-circle py-1 px-1 d-inlineblock"
-                                src="images/pp.jpg" alt="Profile Picture" />
-                            <div class="col-md-10 col-md-offset-1 py-2">
-                                <blockquote class="mb-1 font-normal mt-1 px-4 mx-4 text-black text-center">
-                                    <h3>
-                                        Motivated and hardworking computer scientist looking forward to use my skills
-                                        and experience to incorporate, develop and design software
-                                        solutions of everyday problems.
-                                    </h3>
-                                </blockquote>
-                            </div>
-                        </div>
+							<a href="/Document.pdf" download="Resume - Ramin Rafi.pdf" class="bradius-none px-1 py-1 my-2 text-exbold btn btn-transparent">Download Resume</a>
+							<div class="bradius-none px-1 py-1 my-2 text-exbold btn btn-transparent">Contact Me</div>
+						</div>
+					</div>
+				</div>
 
-                        <a href="/Document.pdf" download="Resume - Ramin Rafi.pdf"
-                            class="bradius-none px-1 py-1 my-2 text-exbold btn btn-transparent">Download Resume</a>
-                        <div class="bradius-none px-1 py-1 my-2 text-exbold btn btn-transparent">Contact Me</div>
-                    </div>
-                </div>
-            </div>
+				<div class="align-items-center text-center py-2 col-md-10 col-md-offset-1">
+					<h1 class="text-uppercase text-exbold font-normal py-2 text-pink">Interests</h1>
+					<div class="py-2 text-darkgray">
+						<div class="col-md-2 zoom pb-2">
+							<a class="links text-gray text-uppercase"><i class="links py-2 fa fa-book px-2 fa-3x"></i> Books</a>
+						</div>
+						<div class="col-md-2 zoom pb-2">
+							<a class="links text-gray text-uppercase"><i class="links py-2 fa fa-camera px-2 fa-3x"></i> Photograpy</a>
+						</div>
+						<div class="col-md-2 zoom pb-2">
+							<a class="links text-gray text-uppercase"><i class="links py-2 fa fa-music px-2 fa-3x"></i> Music</a>
+						</div>
+						<div class="col-md-2 zoom pb-2">
+							<a class="links text-gray text-uppercase"><i class="links py-2 fa fa-plane px-2 fa-3x"></i> Travelling</a>
+						</div>
+						<div class="col-md-2 zoom pb-2">
+							<a class="links text-gray text-uppercase"><i class="links py-2 fa fa-film px-2 fa-3x"></i> Movies</a>
+						</div>
+						<div class="col-md-2 zoom pb-2">
+							<a class="links text-gray text-uppercase"><i class="links py-2 fa fa-gamepad px-2 fa-3x"></i> Gaming</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-            <div class="align-items-center text-center py-2 col-md-10 col-md-offset-1">
-                <h1 class="text-uppercase text-exbold font-normal py-2 text-pink">Interests</h1>
-                <div class="py-2 text-darkgray">
-                    <div class="col-md-2 zoom pb-2">
-                        <a class="links text-gray text-uppercase"><i class="links py-2 fa fa-book px-2 fa-3x"></i>
-                            Books</a>
-                    </div>
-                    <div class="col-md-2 zoom pb-2">
-                        <a class="links text-gray text-uppercase"><i class="links py-2 fa fa-camera px-2 fa-3x"></i>
-                            Photograpy</a>
-                    </div>
-                    <div class="col-md-2 zoom pb-2">
-                        <a class="links text-gray text-uppercase"><i class="links py-2 fa fa-music px-2 fa-3x"></i>
-                            Music</a>
-                    </div>
-                    <div class="col-md-2 zoom pb-2">
-                        <a class="links text-gray text-uppercase"><i class="links py-2 fa fa-plane px-2 fa-3x"></i>
-                            Travelling</a>
-                    </div>
-                    <div class="col-md-2 zoom pb-2">
-                        <a class="links text-gray text-uppercase"><i class="links py-2 fa fa-film px-2 fa-3x"></i>
-                            Movies</a>
-                    </div>
-                    <div class="col-md-2 zoom pb-2">
-                        <a class="links text-gray text-uppercase"><i class="links py-2 fa fa-gamepad px-2 fa-3x"></i>
-                            Gaming</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+		<!-- Background -->
+		<div id="education" class="site-blocks-cover overlay get-notification" style="background-image: url(images/bg.jpg); background-attachment: fixed; background-position: top">
+			<div class="container parent align-items-center py-4 mt-2">
+				<div class="row child bg-light mt-2 pb-4 align-items-center justify-content-center">
+					<div class="col-md-10 col-md-offset-1 py-2">
+						<h1 class="text-uppercase text-center text-exbold font-normal mt-2 text-pink">Academic details</h1>
+						<ul class="py-1 text-black">
+							<li class="mb-1 mt-2">
+								<span class="font-normal text-bold text-uppercase d-block py-1"> bachelors in Computer Science (BSCS) </span>
+								<span class="text-capitalize d-block">National University of Computer and Energing Sciences - FAST NUCES - Lahore</span>
+								<span class="py-1 d-inlineblock text-bold text-pink">2017-2021</span>
+							</li>
+							<li class="mt-1">
+								<span class="font-normal text-bold text-uppercase d-block py-1"> Intermediate (FSc) </span>
+								<span class="text-capitalize d-block">Punjab Group of Colleges - Lahore</span>
+								<span class="py-1 d-inlineblock text-bold text-pink">2015-2017</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <!-- Background -->
-    <div id="education" class="site-blocks-cover overlay get-notification"
-        style="background-image: url(images/bg.jpg); background-attachment: fixed; background-position: top">
-        <div class="container py-4 mt-2">
-            <div class="row bg-light mt-2 pb-4 align-items-center justify-content-center">
-                <div class="col-md-10 col-md-offset-1 py-2">
-                    <h1 class="text-uppercase text-center text-exbold font-normal mt-2 text-pink">Academic details</h1>
-                    <ul class="py-1 text-black">
-                        <li class="mb-1 mt-2">
-                            <span class="font-normal text-bold text-uppercase d-block py-1"> bachelors in Computer
-                                Science (BSCS) </span>
-                            <span class="text-capitalize d-block">National University of Computer and Energing Sciences
-                                - FAST NUCES - Lahore</span>
-                            <span class="py-1 d-inlineblock text-bold text-pink">2017-2021</span>
-                        </li>
-                        <li class="mt-1">
-                            <span class="font-normal text-bold text-uppercase d-block py-1"> Intermediate (FSc) </span>
-                            <span class="text-capitalize d-block">Punjab Group of Colleges - Lahore</span>
-                            <span class="py-1 d-inlineblock text-bold text-pink">2015-2017</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+		<!-- Work Experience -->
+		<div id="history" class="container py-2 mb-4">
+			<div class="row bg-light mt-2">
+				<div class="col-md-10 col-md-offset-1 py-2">
+					<h1 class="text-uppercase text-center text-exbold font-normal mt-2 my-2 text-pink">Professional Experience</h1>
+					<ul class="text-black">
+						<li class="my-4">
+							<span class="font-normal text-bold text-uppercase d-block py-1"> Associate Consultant - Salesforce & Magento</span>
+							<span class="text-capitalize d-block">Systems Limited - Pakistan</span>
+							<span class="py-1 text-bold d-inlineblock text-pink">2021-Present</span>
+							<ul class="italic">
+								<li class="mb-1">- Developed new themes from scratch using HTML/CSS3 and Bootstrap Framework.</li>
+								<li class="mb-1">- Developed intuitive and engaging experiences for the product.</li>
+								<li class="mb-1">- Learned about handling projects using version control system i.e Git</li>
+							</ul>
+						</li>
+						<li class="my-4">
+							<span class="font-normal text-bold text-uppercase d-block py-1"> Software Quality Assurance (SQA) Intern - CureX </span>
+							<span class="text-capitalize d-block">CureMD Research and Development - Pakistan</span>
+							<span class="py-1 text-bold d-inlineblock text-pink">August 2020 - September 2020 </span>
+							<ul class="italic">
+								<li class="mb-1">- Learned Automatic and Manual Testing Techniques</li>
+								<li class="mb-1">- Part in testing of Novelhealth - CureMD</li>
+								<li class="mb-1">- Learned the basics of Microsoft Azure Devops</li>
+								<li class="mb-1">- Learned about Aglie framework i.e Scrum in a professional environment</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
-    <!-- Work Experience -->
-    <div id="history" class="container py-2 mb-4">
-        <div class="row bg-light mt-2">
-            <div class="col-md-10 col-md-offset-1 py-2">
-                <h1 class="text-uppercase text-center text-exbold font-normal mt-2 my-2 text-pink">Professional
-                    Experience</h1>
-                <ul class="text-black">
-                    <li class="my-4">
-                        <span class="font-normal text-bold text-uppercase d-block py-1"> Associate Consultant -
-                            Salesforce & Magento</span>
-                        <span class="text-capitalize d-block">Systems Limited - Pakistan</span>
-                        <span class="py-1 text-bold d-inlineblock text-pink">2021-Present</span>
-                        <ul class="italic">
-                            <li class="mb-1">- Developed new themes from scratch using HTML/CSS3 and Bootstrap
-                                Framework.</li>
-                            <li class="mb-1">- Developed intuitive and engaging experiences for the product.</li>
-                            <li class="mb-1">- Learned about handling projects using version control system i.e Git</li>
-                        </ul>
-                    </li>
-                    <li class="my-4">
-                        <span class="font-normal text-bold text-uppercase d-block py-1"> Software Quality Assurance
-                            (SQA) Intern - CureX </span>
-                        <span class="text-capitalize d-block">CureMD Research and Development - Pakistan</span>
-                        <span class="py-1 text-bold d-inlineblock text-pink">August 2020 - September 2020 </span>
-                        <ul class="italic">
-                            <li class="mb-1">- Learned Automatic and Manual Testing Techniques</li>
-                            <li class="mb-1">- Part in testing of Novelhealth - CureMD</li>
-                            <li class="mb-1">- Learned the basics of Microsoft Azure Devops</li>
-                            <li class="mb-1">- Learned about Aglie framework i.e Scrum in a professional environment
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+		<!-- Skills -->
+		<div id="skills" class="site-blocks-cover overlay get-notification" style="background-image: url(images/bg.jpg); background-attachment: fixed; background-position: top">
+			<div class="container py-4 mt-2">
+				<div class="row bg-light py-4 align-items-center justify-content-center">
+					<h1 class="text-uppercase text-center text-exbold font-normal mt-1 my-2 text-pink">Skills</h1>
+					<!-- Professional Skills -->
+					<div class="col col-md-6 col-sm-6 col-xs-12">
+						<div class="py-1">
+							<h3 class="text-center text-bold text-uppercase text-darkgray py-1">Professional</h3>
 
-    <!-- Skills -->
-    <div id="skills" class="site-blocks-cover overlay get-notification"
-        style="background-image: url(images/bg.jpg); background-attachment: fixed; background-position: top">
-        <div class="container py-4 mt-2">
-            <div class="row bg-light py-4 align-items-center justify-content-center">
-                <h1 class="text-uppercase text-center text-exbold font-normal mt-1 my-2 text-pink">Skills</h1>
-                <!-- Professional Skills -->
-                <div class="col col-md-6 col-sm-6 col-xs-12">
-                    <div class="py-1">
-                        <h3 class="text-center text-bold text-uppercase text-darkgray py-1">Professional</h3>
+							<div class="py-2 px-2">
+								<div>
+									<strong>
+										<p class="text-darkgray text-uppercase mb-1">HTML 80%</p>
+									</strong>
+									<div class="progress">
+										<div
+											class="progress-bar bg-pink progress-bar-success"
+											role="progressbar"
+											aria-valuenow="80"
+											aria-valuemin="0"
+											aria-valuemax="100"
+											style="width: 80%"
+										></div>
+									</div>
+								</div>
+								<div>
+									<strong>
+										<p class="text-darkgray text-uppercase mb-1">CSS 85%</p>
+									</strong>
+									<div class="progress">
+										<div
+											class="progress-bar bg-pink progress-bar-success"
+											role="progressbar"
+											aria-valuenow="85"
+											aria-valuemin="0"
+											aria-valuemax="100"
+											style="width: 85%"
+										></div>
+									</div>
+								</div>
+								<div>
+									<strong>
+										<p class="text-darkgray text-uppercase mb-1">JAVASCRIPT 65%</p>
+									</strong>
+									<div class="progress">
+										<div
+											class="progress-bar bg-pink progress-bar-success"
+											role="progressbar"
+											aria-valuenow="65"
+											aria-valuemin="0"
+											aria-valuemax="100"
+											style="width: 65%"
+										></div>
+									</div>
+								</div>
+								<div>
+									<strong>
+										<p class="text-darkgray text-uppercase mb-1">BOOTSTRAP 80%</p>
+									</strong>
+									<div class="progress">
+										<div
+											class="progress-bar bg-pink progress-bar-success"
+											role="progressbar"
+											aria-valuenow="70"
+											aria-valuemin="0"
+											aria-valuemax="100"
+											style="width: 80%"
+										></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Personal Skills -->
+					<div class="col col-md-6 col-sm-6 col-xs-12">
+						<div class="py-1">
+							<h3 class="text-center text-bold text-uppercase text-darkgray py-1">Personal</h3>
 
-                        <div class="py-2 px-2">
-                            <div>
-                                <strong>
-                                    <p class="text-darkgray text-uppercase mb-1">HTML 80%</p>
-                                </strong>
-                                <div class="progress">
-                                    <div class="progress-bar bg-pink progress-bar-success" role="progressbar"
-                                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <strong>
-                                    <p class="text-darkgray text-uppercase mb-1">CSS 85%</p>
-                                </strong>
-                                <div class="progress">
-                                    <div class="progress-bar bg-pink progress-bar-success" role="progressbar"
-                                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <strong>
-                                    <p class="text-darkgray text-uppercase mb-1">JAVASCRIPT 65%</p>
-                                </strong>
-                                <div class="progress">
-                                    <div class="progress-bar bg-pink progress-bar-success" role="progressbar"
-                                        aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <strong>
-                                    <p class="text-darkgray text-uppercase mb-1">BOOTSTRAP 80%</p>
-                                </strong>
-                                <div class="progress">
-                                    <div class="progress-bar bg-pink progress-bar-success" role="progressbar"
-                                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Personal Skills -->
-                <div class="col col-md-6 col-sm-6 col-xs-12">
-                    <div class="py-1">
-                        <h3 class="text-center text-bold text-uppercase text-darkgray py-1">Personal</h3>
+							<div class="py-2 px-2">
+								<div>
+									<strong>
+										<p class="text-darkgray text-uppercase mb-1">TEAMWORK 90%</p>
+									</strong>
+									<div class="progress">
+										<div
+											class="progress-bar bg-pink progress-bar-success"
+											role="progressbar"
+											aria-valuenow="90"
+											aria-valuemin="0"
+											aria-valuemax="100"
+											style="width: 90%"
+										></div>
+									</div>
+								</div>
+								<div>
+									<strong>
+										<p class="text-darkgray text-uppercase mb-1">CONFIDENCE 80%</p>
+									</strong>
+									<div class="progress">
+										<div
+											class="progress-bar bg-pink progress-bar-success"
+											role="progressbar"
+											aria-valuenow="80"
+											aria-valuemin="0"
+											aria-valuemax="100"
+											style="width: 80%"
+										></div>
+									</div>
+								</div>
+								<div>
+									<strong>
+										<p class="text-darkgray text-uppercase mb-1">DEDICATION 90%</p>
+									</strong>
+									<div class="progress">
+										<div
+											class="progress-bar bg-pink progress-bar-success"
+											role="progressbar"
+											aria-valuenow="90"
+											aria-valuemin="0"
+											aria-valuemax="100"
+											style="width: 90%"
+										></div>
+									</div>
+								</div>
+								<div>
+									<strong>
+										<p class="text-darkgray text-uppercase mb-1">CREATIVITY 80%</p>
+									</strong>
+									<div class="progress">
+										<div
+											class="progress-bar bg-pink progress-bar-success"
+											role="progressbar"
+											aria-valuenow="80"
+											aria-valuemin="0"
+											aria-valuemax="100"
+											style="width: 75%"
+										></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-                        <div class="py-2 px-2">
-                            <div>
-                                <strong>
-                                    <p class="text-darkgray text-uppercase mb-1">TEAMWORK 90%</p>
-                                </strong>
-                                <div class="progress">
-                                    <div class="progress-bar bg-pink progress-bar-success" role="progressbar"
-                                        aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <strong>
-                                    <p class="text-darkgray text-uppercase mb-1">CONFIDENCE 80%</p>
-                                </strong>
-                                <div class="progress">
-                                    <div class="progress-bar bg-pink progress-bar-success" role="progressbar"
-                                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <strong>
-                                    <p class="text-darkgray text-uppercase mb-1">DEDICATION 90%</p>
-                                </strong>
-                                <div class="progress">
-                                    <div class="progress-bar bg-pink progress-bar-success" role="progressbar"
-                                        aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <strong>
-                                    <p class="text-darkgray text-uppercase mb-1">CREATIVITY 80%</p>
-                                </strong>
-                                <div class="progress">
-                                    <div class="progress-bar bg-pink progress-bar-success" role="progressbar"
-                                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+		<!-- Contact Me Section -->
+		<div id="contact" class="container py-2 my-4">
+			<div class="row bg-light py-4 px-4">
+				<h1 class="text-uppercase text-center text-exbold font-normal mt-2 my-2 text-pink">Get in touch</h1>
+				<div class="col-md-10 col-md-offset-1 text-center align-items-center py-2">
+					<div class="row py-1">
+						<div class="col-md-2 py-1">
+							<a class="text-darkgray links" href="https://github.com/raminrafi/"><i class="fab fa-github px-1 fa-3x mb-2"></i>raminrafi</a>
+						</div>
+						<div class="col-md-2 py-1">
+							<a class="text-darkgray links" href="https://www.linkedin.com/in/ramin-rafi-038b5a18b"><i class="fab px-1 fa-linkedin fa-3x mb-2"></i>ramin-rafi</a>
+						</div>
+						<div class="col-md-2 py-1">
+							<a class="text-darkgray links" href="https://m.facebook.com/ramin.rafi.5?ref=bookmarks"><i class="fab fa-facebook px-1 fa-3x mb-2"></i>Ramin Rafi</a>
+						</div>
+						<div class="col-md-2 py-1">
+							<a class="text-darkgray links" href="#"><i class="fa fa-flip-horizontal fa-phone px-1 fa-3x mb-2"></i>raminrafi22</a>
+						</div>
+						<div class="col-md-2 py-1">
+							<a class="text-darkgray links" href="https://mail.google.com/mail/u/0/#compose"><i class="fa px-4 fa-envelope fa-3x mb-2"></i>raminrafi22@gmail.com</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
-    <!-- Contact Me Section -->
-    <div id="contact" class="container py-2 my-4">
-        <div class="row bg-light py-4 px-4">
-            <h1 class="text-uppercase text-center text-exbold font-normal mt-2 my-2 text-pink">Get in touch</h1>
-            <div class="col-md-10 col-md-offset-1 text-center align-items-center py-2">
-                <div class="row py-1">
-                    <div class="col-md-2 py-1">
-                        <a class="text-darkgray links" href="https://github.com/raminrafi/"><i
-                                class="fab fa-github px-1 fa-3x mb-2"></i>raminrafi</a>
-                    </div>
-                    <div class="col-md-2 py-1">
-                        <a class="text-darkgray links" href="https://www.linkedin.com/in/ramin-rafi-038b5a18b"><i
-                                class="fab px-1 fa-linkedin fa-3x mb-2"></i>ramin-rafi</a>
-                    </div>
-                    <div class="col-md-2 py-1">
-                        <a class="text-darkgray links" href="https://m.facebook.com/ramin.rafi.5?ref=bookmarks"><i
-                                class="fab fa-facebook px-1 fa-3x mb-2"></i>Ramin Rafi</a>
-                    </div>
-                    <div class="col-md-2 py-1">
-                        <a class="text-darkgray links" href="#"><i
-                                class="fa fa-flip-horizontal fa-phone px-1 fa-3x mb-2"></i>raminrafi22</a>
-                    </div>
-                    <div class="col-md-2 py-1">
-                        <a class="text-darkgray links" href="https://mail.google.com/mail/u/0/#compose"><i
-                                class="fa px-4 fa-envelope fa-3x mb-2"></i>raminrafi22@gmail.com</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+			<div class="text-darkgray text-center py-4">Ramin Rafi © 2021, All Rights Reserved</div>
 
-        <div class="text-darkgray text-center py-4">Ramin Rafi © 2021, All Rights Reserved</div>
-
-        <!-- Google map embedding -->
-        <!-- <div class="text-muted bg-light text-capitalize row">
+			<!-- Google map embedding -->
+			<!-- <div class="text-muted bg-light text-capitalize row">
     <div class="col-md-10 col-md-offset-1">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49900.77669049737!2d74.33308367808026!3d31.522131360408295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1634712020764!5m2!1sen!2s"
@@ -396,12 +412,11 @@
         <div class="text-darkgray text-center py-4">Ramin Rafi © 2021, All Rights Reserved</div>
     </div>
 </div> -->
-    </div>
+		</div>
 
-    <!-- JS Libraries -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/@ommu/animated-headline/js/main.js"></script>
-    <script src="lib/@ommu/animated-headline/js/modernizr.js"></script>
-</body>
-
+		<!-- JS Libraries -->
+		<script src="lib/jquery/jquery.min.js"></script>
+		<script src="lib/@ommu/animated-headline/js/main.js"></script>
+		<script src="lib/@ommu/animated-headline/js/modernizr.js"></script>
+	</body>
 </html>
