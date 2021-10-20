@@ -630,7 +630,11 @@ li a:active {
 	.col-md-2 .links i,
 	.zoom a i {
 		display: block;
-		margin-left: 0;
+	}
+
+	.img-circle {
+		min-height: 50%;
+		min-width: 50%;
 	}
 
 	.px-2,
