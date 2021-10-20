@@ -622,6 +622,17 @@ li a:active {
 	.font-normal {
 		font-size: 16px;
 	}
+	.btn {
+		display: block;
+		width: 90%;
+		margin: 25px;
+	}
+	.col-md-2 .links i,
+	.zoom a i {
+		display: block;
+		margin-left: 0;
+	}
+
 	.px-2,
 	.px-4,
 	.px-3,
