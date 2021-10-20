@@ -2,14 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
 
 :root {
-	--orange: #f19d00;
+	--pink: #ff9488;
 	--black: #000;
 	--light: #f3f3f3;
 	--white: #fff;
-	--gray: rgb(128, 128, 128);
+	--darkgray: #5e5e5e;
+	--gray: #888888;
 	--milk: #f8f9fa;
-	--lightgray: rgb(179, 179, 179);
+	--lightgray: #eee;
 	--turquoise: #46ddb0;
+
 	--blue: #00a3e1;
 	--dark: #030316;
 	--darkk: #e6e6e6cb;
@@ -28,8 +30,9 @@
 }
 
 body {
-	background-color: var(--dark);
+	background-color: var(--lightgray);
 	font-family: "Raleway", sans-serif;
+	font-weight: 400;
 	margin: 0 auto;
 }
 
@@ -315,8 +318,8 @@ body {
 	color: var(--black) !important;
 }
 
-.text-orange {
-	color: var(--orange) !important;
+.text-pink {
+	color: var(--pink) !important;
 }
 
 .text-light {
@@ -383,6 +386,10 @@ body {
 	color: var(--adobe) !important;
 }
 
+.text-darkgray {
+	color: var(--darkgray) !important;
+}
+
 .text-uppercase {
 	letter-spacing: 1.5px;
 }
@@ -421,6 +428,10 @@ body {
 	background-color: var(--lightgray) !important;
 }
 
+.bg-gray {
+	background-color: var(--gray) !important;
+}
+
 .bg-white {
 	background-color: var(--white) !important;
 }
@@ -441,11 +452,11 @@ body {
 /* Font Weights */
 
 .text-exbold {
-	font-weight: 900;
+	font-weight: 800;
 }
 
 .text-bold {
-	font-weight: 600;
+	font-weight: 500;
 }
 
 /* Font Style */
@@ -468,14 +479,13 @@ body {
 }
 
 .navbar-nav li a:hover {
-	background-color: var(--dark) !important;
-	color: var(--orange) !important;
+	color: var(--pink) !important;
 }
 
 /* Splash Page */
 
 .border-bottom {
-	border-bottom: 2px solid var(--orange);
+	border-bottom: 2px solid var(--pink);
 }
 
 .head {
@@ -493,7 +503,7 @@ body {
 /* Overlay */
 
 .overlay {
-	background-image: url(../images/bg-img.jpg);
+	background-image: url(../images/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
@@ -504,7 +514,7 @@ body {
 
 .overlay:before {
 	content: "";
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(112, 112, 112, 0.2);
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -544,15 +554,15 @@ body {
 .fb:hover,
 .tw:hover,
 .git:hover {
-	color: var(--lightgray) !important;
+	color: var(--pink) !important;
 }
 
 .links:hover {
-	color: var(--orange) !important;
+	color: var(--pink) !important;
 }
 
 li a:active {
-	color: var(--orange) !important;
+	color: var(--pink) !important;
 }
 
 .zoom:hover,
@@ -561,8 +571,8 @@ li a:active {
 	transition: 0.4s all ease;
 	transform: scale(1.09);
 	content: "";
-	background-color: var(--dark);
-	color: var(--white);
+	background-color: var(--light);
+	color: var(--gray);
 }
 
 @media (max-width: 960px) {
