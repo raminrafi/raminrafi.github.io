@@ -46,6 +46,11 @@ body {
 
 .container {
 	max-width: 1200px;
+	outline: 1px solid red;
+}
+
+.row {
+	outline: 1px solid red;
 }
 
 * {
@@ -322,8 +327,8 @@ body {
 
 /* Buttons */
 .btn-transparent:hover {
-	background-color: var(--white);
-	color: var(--darkgray);
+	background-color: var(--darkgray);
+	color: var(--white);
 }
 
 .btn-transparent {
@@ -436,7 +441,7 @@ body {
 }
 
 .v-middle {
-	position: relative;
+	vertical-align: middle !important;
 }
 
 .v-row {
@@ -548,6 +553,41 @@ body {
 	object-fit: cover;
 }
 
+.img-responsive {
+	min-height: 200px;
+	position: relative;
+}
+
+.imgOverlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background-color: var(--lightgray);
+}
+
+.con:hover .imgOverlay {
+	opacity: 0.8;
+}
+
+.text {
+	color: var(--darkgray);
+	font-size: 20px;
+	font-weight: 800;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
 /* Overlay */
 
 .overlay {
@@ -555,7 +595,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-	height: 100vh;
+	height: calc(100vh-149px);
 	min-height: 500px;
 	position: relative;
 }
@@ -584,7 +624,7 @@ body {
 
 .item {
 	object-fit: cover;
-	height: 100vh;
+	height: calc(100vh-149px);
 }
 
 .img-circle {
