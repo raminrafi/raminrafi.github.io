@@ -631,12 +631,9 @@ li a:active {
 	.zoom a i {
 		display: block;
 	}
-
 	.img-circle {
-		min-height: 50%;
-		min-width: 50%;
+		width: 50%;
 	}
-
 	.px-2,
 	.px-4,
 	.px-3,
