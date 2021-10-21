@@ -46,12 +46,12 @@ body {
 
 .container {
 	max-width: 1200px;
-	outline: 1px solid red;
+	/* border: 1px solid red; */
 }
 
-.row {
-	outline: 1px solid red;
-}
+/* .row {
+	border: 1px solid red;
+} */
 
 * {
 	box-sizing: border-box;
@@ -596,7 +596,7 @@ body {
 	background-size: cover;
 	background-position: top center;
 	height: calc(100vh-149px);
-	min-height: 500px;
+	min-height: 600px;
 	position: relative;
 }
 
@@ -658,7 +658,7 @@ li a:active {
 .zoom:focus {
 	z-index: 2;
 	transition: 0.4s all ease;
-	font-size: 18px;
+
 	content: "";
 	background-color: var(--white);
 }
