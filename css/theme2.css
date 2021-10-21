@@ -647,6 +647,11 @@ body {
 
 .links:hover {
 	color: var(--pink) !important;
+}
+
+.links:active,
+.links:hover,
+.links:focus {
 	text-decoration: none !important;
 }
 
@@ -658,7 +663,6 @@ li a:active {
 .zoom:focus {
 	z-index: 2;
 	transition: 0.4s all ease;
-
 	content: "";
 	background-color: var(--white);
 }
